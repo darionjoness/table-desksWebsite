@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Desks&Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <section class="navbar">
+        <nav class="navbarItems container">
+            <h1 class="logo">Desks&Tables</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#chooseShopping">Shop</a></li>
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#faqs">Faqs</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+                <button class="hamburgerBtn"><i class="fa-solid fa-bars"></i></button>
+            </ul>
+        </nav>
+    </section> 
+    
+    <!-- MOBILE NAVBAR -->
+
+    <section class="mobileNavbar">
+        <div class="mobileNavbarItems">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#chooseShopping">Shop</a></li>
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#faqs">Faqs</a></li>
+                <li><a href="#contacUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SHOWCASE -->
+
+    <section class="showcase">
+        <div class="showcaseItems container">
+            <h1>Sale</h1> 
+            <h2>20% off all items!</h2>
+            <p>Check out the sale below!</p>
+            <a href="#chooseShopping"><i class="fa-solid fa-angle-down"></i></a>
+        </div>
+    </section>
+
+    <!-- CHOOSE SHOPPING -->
+
+    <section id="chooseShopping">
+        <div class="chooseShoppingItems">
+            <div onclick="location.href='#shop'" class="chooseShoppingItem">
+                <div class="chooseShoppingItemImg">
+                    <img src="images/chooseDesk.avif" alt="">
+                </div>
+                <div class="chooseShoppingItemText">
+                    <h3>Desks</h3>
+                </div>
+            </div>
+            <div class="chooseShoppingItem" onclick="location.href='#shopTable'">
+                <div class="chooseShoppingItemImg">
+                    <img src="images/chooseTable.avif" alt="">
+                </div>
+                <div class="chooseShoppingItemText">
+                    <h3>Tables</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SHOP -->
+
+    <section id="shop">
+        <h1>Desks</h1>
+        <div class="shopItems container grid-3">
+           <div class="item">
+                <img src="images/appleDesk.webp" alt="">
+                <div class="itemText">
+                    <h2>Wood & Metal School Desk</h2>
+                    <p><span>$289.99</span>$239.99</p>
+                    <button>Add To Cart<i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+           </div>
+           <div class="item">
+                <img src="images/cornerDesk.jpeg" alt="">
+                <div class="itemText">
+                    <h2>Black L Shape Desk</h2>
+                    <p><span>$329.99</span>$279.99</p>
+                    <button>Add To Cart<i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+           </div>
+           <div class="item">
+                <img src="images/someDesk.jpeg" alt="">
+                <div class="itemText">
+                    <h2>Medium Wood Office Desk</h2>
+                    <p><span>$399.99</span>$339.99</p>
+                    <button>Add To Cart<i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+             </div>
+             <div class="item">
+                <img src="images/standingDesk.webp" alt="">
+                <div class="itemText">
+                    <h2>Wood Standing Desk</h2>
+                    <p><span>$169.99</span>$139.99</p>
+                    <button>Add To Cart<i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+           </div>
+           <div class="item">
+                <img src="images/whiteStandingDesk.jpeg" alt="">
+                <div class="itemText">
+                    <h2>White Standing Desk</h2>
+                    <p><span>$169.99</span>$139.99</p>
+                    <button>Add To Cart<i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/workDesk.jpeg" alt="">
+                <div class="itemText">
+                    <h2>Light Wood Tall Desk</h2>
+                    <p><span>$249.99</span>$209.99</p>
+                    <button>Add To Cart<i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+           </div>
+        </div>
+    </section>
+
+    
+    <!-- SHOP TABLES -->
+    <section id="shopTable">
+        <h1>Tables</h1>
+        <div class="shopItems container grid-3">
+            <div class="item">
+                <img src="images/dinnerTable.jpeg" alt="">
+                <div class="itemText">
+                    <h2>Light Wood Dinner Table</h2>
+                    <p><span>$159.99</span> $129.99</p>
+                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/basicTable.avif" alt="">
+                <div class="itemText">
+                    <h2>Basic Wood Table</h2>
+                    <p><span>$89.99</span> $65.99</p>
+                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/kitchenTable.webp" alt="">
+                <div class="itemText">
+                    <h2>Gray Dining Table</h2>
+                    <p><span>$339.99</span> $289.99</p>
+                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/sideTable.avif" alt="">
+                <div class="itemText">
+                    <h2>Dark Wood Side Table</h2>
+                    <p><span>$89.99</span> $65.99</p>
+                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/longTable.jpeg" alt="">
+                <div class="itemText">
+                    <h2>Light Long Wood Table</h2>
+                    <p><span>$79.99</span> $59.99</p>
+                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/weirdTable.jpeg" alt="">
+                <div class="itemText">
+                    <h2>Light Wood Coffee Table</h2>
+                    <p><span>$89.99</span> $65.99</p>
+                    <button>Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <!-- ABOUT US -->
+
+      <section id="aboutUs">
+        <div class="aboutUsItems container grid">
+            <div class="aboutText">
+                <h1>About Us</h1>
+                <p>We take passion here at Tables&Desks in providing high quality tables and desks to our customers. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci doloribus nemo libero expedita necessitatibus molestiae excepturi praesentium, quaerat voluptates dolore distinctio? Reiciendis, quo, dignissimos eos quasi omnis nulla ut quis optio perferendis molestias numquam voluptates laboriosam repellat repellendus officia! Rerum.</p>
+            </div>
+            <div class="aboutImg">
+                <img src="images/aboutUsImg.avif" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- FAQ -->
+    <section id="faqs">
+        <h1>FAQs</h1>
+        <div class="faqItems container">
+            <div class="faqItem">
+                <div class="faqItemHeader">
+                    <h2>How long does it take to ship?</h2>
+                </div>
+                <div class="faqItemContent">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente architecto animi quibusdam ducimus? Eos, quas dolore tempore provident facilis enim. Perferendis provident atque sequi.</p>
+                </div>
+            </div>
+            <div class="faqItem">
+                <div class="faqItemHeader">
+                    <h2>What delivery service is used?</h2>
+                </div>
+                <div class="faqItemContent">
+                    <p>Fedex</p>
+                </div>
+            </div>
+            <div class="faqItem">
+                <div class="faqItemHeader">
+                    <h2>How can I return a package?</h2>
+                </div>
+                <div class="faqItemContent">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente architecto animi quibusdam ducimus?</p>
+                </div>
+            </div>
+            <div class="faqItem">
+                <div class="faqItemHeader">
+                    <h2>How long does it take to ship?</h2>
+                </div>
+                <div class="faqItemContent">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente architecto animi quibusdam ducimus? Eos, quas dolore tempore provident facilis enim. Perferendis provident atque sequi.</p>
+                </div>
+            </div>
+            <div class="faqItem">
+                <div class="faqItemHeader">
+                    <h2>How long does it take to ship?</h2>
+                </div>
+                <div class="faqItemContent">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio sapiente architecto animi quibusdam ducimus? Eos, quas dolore tempore provident facilis enim. Perferendis provident atque sequi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT US -->
+
+    <section class="contactUs">
+        <div class="contactUsItems container grid">
+            <div class="contactUsInfo">
+                <h1>Contact Us</h1>
+                <p>Email123@gmail.com</p>
+                <p>(123) 456-7890</p>
+                <p>1234 Street Name Dr</p>
+                <p>Miami, Florida</p>
+                <p>33101</p>
+            </div>
+            <div class="contactUsForm">
+                <h1 class="contactUsFormHeader">Open Report Ticket</h1>
+                <div class="contactUsNames">
+                    <label for="contactFirstName">First Name: </label>
+                    <input id="contactFirstName" type="text">
+                    <label for="contactLastName">Last Name: </label>
+                    <input id="contactLastName" type="text">
+                </div>
+                <label for="contactEmail">Email:</label>
+                <input id="contactEmail" type="email">
+                <label for="contactMessage">Message</label>
+                <input id="contactMessage" type="text">
+                <div class="formBtn">
+                    <button>Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
